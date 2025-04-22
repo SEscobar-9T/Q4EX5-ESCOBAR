@@ -1,5 +1,5 @@
 function menuchoice() {
-	var menuInput = document.getElementById('choiceFood').value;
+	var menuInput = document.getElementById('choiceFood').value.toUppercase();
 	
 	switch (parseInt(order)) {
 		case "B": 
